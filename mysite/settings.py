@@ -15,11 +15,11 @@ from pathlib import Path
 
 import site_logging
 
-from where.is.your.utils import log_traceback
-try:
-    'do something'
-except Exception, args:
-    log_traceback(Exception, args)
+#from where.is.your.utils import log_traceback
+#try:
+#    'do something'
+#except Exception, args:
+#    log_traceback(Exception, args)
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
